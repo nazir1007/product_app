@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', true);
 
 // ------ Set up default mongoose connection -------- //
-// let mongoDB = process.env.MONGODB_URI || "mongodb://localhost/user_authentication";
+
 let mongoDB = "mongodb://localhost/product_transaction";
 
 //------Connect to Mongo--------//

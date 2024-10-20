@@ -6,8 +6,6 @@ const db = require('./config/mongoose');
 
 const productRoutes = require('./routes/product_routes');
 
-//dotenv.config();
-
 app.use(
     cors({
       origin: [process.env.FRONTEND_URL],

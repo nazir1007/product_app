@@ -138,8 +138,8 @@ module.exports.getPieChart = async (req, res) => {
         },
         {
           $group: {
-            _id: "$category", // Group by category
-            count: { $sum: 1 } // Count the number of transactions in each category
+            _id: "$category", 
+            count: { $sum: 1 } 
           }
         }
       ]);
